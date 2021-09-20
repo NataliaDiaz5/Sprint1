@@ -1,80 +1,166 @@
-
-ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    height: 650px;
-    background-color:lightblue;
-    border: 1px solid #555;
-    column-span: 2;
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+#fondo {
+	width: 1100px;
+	height: 750px;
+	background-color: #E9F3F5;
+	border-left: thin solid #B3B3B3;
+	border-right: thin inset #CBC6C6;
+	border-bottom: thin solid #B3B3B3;
+	border-top: 2px solid #B3B3B3;
+	margin: 0.5em auto;
+	
+}
+
+.box {
+	display: flex;
   }
 
- button {
-/* background-color: #4c53af; Green */
-border: none;
-color: white;
-padding: 10px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-border-radius: 20px;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
 
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-    color: #4CAF50;
-    border-bottom: 1px solid #4CAF50;
-
-}
-
-li:last-child {
-    border-bottom: none;
-}
-
-label {
-    background-color: white;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style: italic;
-    margin: 10px;
-    
-    
+#fondo #Centro {
+	height: 100%;
+	width: 75%;
+	/*background-color: #A7EDD6;*/
+	float: right;
 }
 p {
-    /* background-color: white; */
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    font-style:oblique;
-    margin: 10px;
-
+	text-align: center;
+	color: #3D3737;
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+
+h1{
+	text-align: center;
+	border-top: 20px;
+	margin-top: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3em;
+	color: #212121;
+	
+}
+
+h2{
+	text-align:center;
+	
+}
+
+
+#landing_navbar {
+	height: 100%;
+	width: 25%;
+	padding-left: 0px;
+	left: 0px;
+	bottom: 0px;
+	background-color: #BEDDEB;
+	border-radius: 0.5em;
+	font-size: 0px;
+	padding-top: 0px;
+	top: 0px;
+	float: left;
+}
+
+#fondo #landing_navbar #navbar_logo {
+	width: 150px;
+	height: 150px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: 20px;
+}
+
+
+#fondo #landing_navbar #btn_irRegistro {
+	width: 140px;
+	min-width: 40px;
+	color: #000000;
+	border: 1px inset #C4C3FC;
+	bottom: 40px;
+	margin-top: 500px;
+	margin-left: 60px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	background-color: #C4E5F8;
+	border-radius: 0.5em;
+}
+#fondo #Centro #panelizquierdo {
+	height: 70%;
+	width: 45%;
+	/*background-color: #A8C0F0;*/
+	margin-bottom: 0px;
+	margin-top: 50px;
+	margin-left: 20px;
+	float: left;
+	
+}
+#fondo #Centro #panelderecho {
+	height: 70%;
+	width: 45%;
+	/*background-color: #A8C0F0;*/
+	margin-bottom: 0px;
+	margin-top: 50px;
+	margin-left: 430px;
+	
+	
+}
+#Centro #panelizquierdo #denunciar {
+	width: 120px;
+	height: 100px;
+	margin-top: 80px;
+	margin-left: 120px;
+	
+}
+#Centro #panelderecho #zonasRojas {
+	width: 120px;
+	height: 100px;
+	margin-top: 80px;
+	margin-left: 120px;
+}
+#Centro #panelderecho p {
+	margin-top: 80px;
+	font-size: small;
+	
+}
+#Centro #panelizquierdo p {
+	margin-top: 80px;
+	font-size: small;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
