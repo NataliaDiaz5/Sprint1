@@ -19,3 +19,6 @@ export function validar_contrasena(string) {
         return true;
     }
 }
+
+// module.exports.validar_nombreUsuario=validar_nombreUsuario;
+// module.exports.validar_contrasena = validar_contrasena;
