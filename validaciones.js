@@ -20,5 +20,26 @@ export function validar_contrasena(string) {
     }
 }
 
+function validar_contrasena(string) {
+    const parrafo = document.getElementById("warning2")
+    var alfanum = /^[0-9a-zA-Z]+$/;
+    let warnings = "";
+    let bandera = false;
+    parrafo.innerHTML = ""
+    if ((string.value.length < 6) || (!string.value.match(alfanum))){
+      warnings += 'La contraseña no es válida';
+      bandera = true;
+    } else {
+      return true;
+    }
+    if (bandera){
+      parrafo.innerHTML = warnings
+    }
+    return false;
+  }
+  
+
+
+
 // module.exports.validar_nombreUsuario=validar_nombreUsuario;
 // module.exports.validar_contrasena = validar_contrasena;

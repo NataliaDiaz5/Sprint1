@@ -6,6 +6,8 @@ const form = document.getElementById("form_registro_usuario")
 let res_filtro = [];
 let registros =[];
 
+
+
 function agregarRegistro(){
     let user_valid = valida.validar_nombreUsuario(nombre);
     let contra_valid= valida.validar_contrasena(pass);
@@ -28,5 +30,6 @@ function filtrarPorContrasena(arreglo, filtro){
     let res_filtro = array.filter(p => p.contrasena.length <= filtro);
     console.log(res_filtro)
     return res_filtro;
+   
 }
 
