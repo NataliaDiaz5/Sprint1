@@ -113,10 +113,11 @@ button{
 	bottom: 40px;
 	margin-top: 500px;
 	margin-left: 60px;
-	margin-right: 50px;
+	margin-right: 10px;
 	margin-bottom: 25px;
 	background-color: #C4E5F8;
 	border-radius: 0.5em;
+	align-items: center;
 }
 
 #fondo #Centro #panelizquierdo {

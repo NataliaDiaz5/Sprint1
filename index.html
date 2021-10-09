@@ -1,45 +1,180 @@
-<!doctype html>
-  
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>index</title>
+<!DOCTYPE HTML>
 
-<!-- <link href="estilos.css" rel="stylesheet" type="text/css"> -->
-<link rel="stylesheet" href="estilos.css" crossorigin="" type="text/css">
-</head>
+<html>
+	<head>
+		<title>Zonas seguras</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-<body>
+		<!-- Header  parte izquierda-->
+			<div id="header">
 
-<div class="box" id="fondo">
+				<div class="top">
 
-  <nav id="landing_navbar">
-  <img id="navbar_logo" src="images/logoUPBCOLOR-1.png" width="auto" height="auto" alt=""/>
-  <button id="btn_irRegistro" name="Registrarse" value="Registrarse"><a href="registro.html" id="link_registro">Registrarse</a></button> 
-  </nav>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/logo.png" alt="" /></span>
+							<h1 id="title">Safe zones</h1>
+							
+						</div>
 
-  <div class="col-12" id="Centro">
-    <h1>Nombre de la aplicación</h1> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, voluptatum expedita minus tempore dolor veniam quia accusantium alias asperiores officiis pariatur nesciunt nisi    autem delectus amet quidem non perferendis voluptate!
-    </p>
-   <!-- 
-    
-    -->
-    <div id="panelizquierdo" >
-       <img id="denunciar" src="images/logoUPBCOLOR-1.png" width="auto" height="auto" alt=""/>
-       <h2>Denuncie</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora, provident. Quia, ab soluta omnis. Rerum, nam, provident explicabo repellendus molestias blanditiis officia repudiandae cum? Ratione, numquam, expedita! Quasi, nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora, provident. Quia, ab soluta omnis. Rerum, nam, provident explicabo repellendus molestias blanditiis officia repudiandae cum? Ratione, numquam, expedita! Quasi, nostrum</p>
-    </div>
-       
-    <div  id="panelderecho">
-        <img id="zonasRojas" src="images/logoUPBCOLOR-1.png" width="auto" height="auto" alt=""/>
-       <h2>Zonas rojas</h2>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora, provident. Quia, ab soluta omnis. Rerum, nam, provident explicabo repellendus molestias blanditiis officia repudiandae cum? Ratione, numquam, expedita! Quasi, nostrum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, tempora, provident. Quia, ab soluta omnis. Rerum, nam, provident explicabo repellendus molestias blanditiis officia repudiandae cum? Ratione, numquam, expedita! Quasi, nostrum</p>
-    </div>
+<div class="container">
+	<form id="form" autocomplete="off">
+	  <!-- <h1 id="message">Get Started</h1><small id="smallMessage"> </small> -->
+	  <div class="field">
+		  <br>
+		  <br>
+		<label for="email">Usuario</label>
+		<input id="email" type="email" name="email" placeholder="Email" autocomplete="off"/>
+		
+	  </div>
+	  <div class="field">
+		<label for="password">Contraseña</label>
+		<input id="password" type="password" name="password" placeholder="Password" autocomplete="new-password"/>
+		
+	  </div>
+	  <br>
+	  <button id="submit" class="button registrarse">Registrarse</button>
+	  <!-- <p>By signing up, I agree to to the Terms of Service and Privacy Policy</p> -->
+	</form>
   </div>
+					<!-- Nav -->
+						<nav id="nav">
+                          
+							<ul>
+								<li><a href="#inicio" id="inicio-link"><span class="icon solid fa-home">Inicio</span></a></li>
+								<li><a href="#delitos" id="delitos-link"><span class="icon solid fa-th">Delitos</span></a></li>
+								<li><a href="#mapas" id="mapas-link"><span class="icon solid fa-user">Mapa</span></a></li>
+								<li><a href="#denuncias" id="denuncie-link"><span class="icon solid fa-envelope">Denuncie</span></a></li>
+							</ul>
+                          
+						</nav>
 
-</div>
+				</div>
 
-</body>
+				<div class="bottom">
+
+					<!--  Iconos redes sociales -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li
+							><li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main  -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="inicio" class="one dark cover">
+						<div class="container">
+
+							<header>
+							  <h2 class="alt">ZONAS SEGURAS</h2>
+							  <p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p>
+							</header>
+
+							<footer>
+								<a href="#delitos" class="button scrolly">Magna Aliquam</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="delitos" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Delitos</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+
+							<div class="row">
+								<!--Agregar tipos de delitos aqui-->
+						    </div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="mapas" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Mapas</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/main.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="denuncias" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Denuncias</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Nombre" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Denuncia"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Colocar nombre de algo -->
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
